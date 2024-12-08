@@ -6,6 +6,6 @@
 - [ ] Look at the comments section on pump.fun to see if people are engaging with the coin.
 - [ ] Add a func to check the number of comments by unique user in pump.fun for a specific coin.
 - [X] Add a func to check on RugCheck to see if the coin is safe.
-- [ ] bypass rugcheck rate limiter
+- [X] bypass rugcheck rate limiter
 - [ ] Use a Telegram sniper bot to buy and sell coins.
-- [ ] Keep track of your total profit over time.
+- [X] Keep track of your total profit over time.
