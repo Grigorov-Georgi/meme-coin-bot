@@ -21,8 +21,12 @@ def get_tokens(min_number_holders,
                max_sniper_count,
                max_single_owner_percentage,
                max_top_5_owner_percentage):
+
+    print(f"Fetching information from pump.fun [{min_market_cap} < MC < {max_market_cap}, Sniper < {max_sniper_count}, 1TH% -> {max_single_owner_percentage}, 5TH% -> {max_top_5_owner_percentage}")
+
     url = f"https://advanced-api.pump.fun/coins/list?sortBy=creationTime&marketCapFrom={min_market_cap}&marketCapTo={max_market_cap}&numHoldersFrom={min_number_holders}"
     response = requests.get(url)
+
     if response.status_code == 200:
         data = response.json()
 
@@ -30,17 +34,12 @@ def get_tokens(min_number_holders,
 
         for token in data:
 
-            # top_holder_percentage = token["holders"][0]["ownedPercentage"]
-            # top_5_holders_percentage = sum(holder["ownedPercentage"] for holder in token["holders"][:5])
-
             if token["sniperCount"] < max_sniper_count:
-                # top_5_holders_percentage <= max_top_5_owner_percentage):
-                # and top_holder_percentage <= max_single_owner_percentage): -> skip that check for the moment
 
                 token_addr = token["coinMint"]
 
                 if not rug_check(token_addr, max_single_owner_percentage, max_top_5_owner_percentage):
-                    print(f"{token['name']} with addr {token['coinMint']} fails on rugcheck!")
+                    print(f"GET-TOKENS: {token['name']} with addr {token['coinMint']} fails on rugcheck!")
                     continue
 
                 filtered_tokens.append(token)
@@ -52,8 +51,6 @@ def get_tokens(min_number_holders,
                     f"Num Holders: {token['numHolders']}, "
                     f"Sniper Count: {token['sniperCount']}, "
                     f"Address: {token['coinMint']}"
-                    # f"Top Holder Ownership: {top_holder_percentage:.2f}%, "
-                    # f"Top 3 Holders Ownership: {top_5_holders_percentage:.2f}%"
                 )
 
         return filtered_tokens
@@ -71,17 +68,17 @@ def rug_check(token_addr, max_single_owner_percentage, max_top_5_owner_percentag
         data = response.json()
 
         if not check_risks(data["risks"]):
-            print(f"{token_addr} -> risks array is not empty")
+            print(f"RUG-CHECK: {token_addr} -> risks array is not empty")
             return False
 
         if not check_top_holders_ownership(data["topHolders"], max_single_owner_percentage, max_top_5_owner_percentage):
-            print(f"{token_addr} -> top holders validation fails")
+            print(f"RUG-CHECK: {token_addr} -> top holders validation fails")
             return False
 
         return True
 
     else:
-        print(f"Failed to fetch data from rugcheck.xyz - status code: {response.status_code}")
+        print(f"RUG-CHECK: Failed to fetch data from rugcheck.xyz - status code: {response.status_code}")
         return False
 
 
@@ -118,6 +115,7 @@ def check_top_holders_ownership(top_holders, max_single_owner_percentage, max_to
 def main():
     print_banner()
     print("Discovering meme coins...")
+
     while True:
         start_time = time.time()
 
