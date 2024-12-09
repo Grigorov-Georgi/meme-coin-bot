@@ -1,0 +1,167 @@
+[
+  {
+    "coinMint": "71e2XLpVvty7ECaivXweJrgsAkCd7AT82aDHr6ctpump",
+    "dev": "5fo4GxErk7jF5NZiQgPvY6WS3hvtsXjiRtUznESrGoWC",
+    "name": "Capitalism AI",
+    "ticker": "CAP",
+    "imageUrl": "https://ipfs.io/ipfs/QmSoAZG2S31kKuzt9eRCxu1mGFiuHFvJsWEDLexQkpzTbr",
+    "creationTime": 1733719683575,
+    "numHolders": 4,
+    "marketCap": 7613.91,
+    "volume": 3.5809,
+    "bondingCurveProgress": 10.64,
+    "sniperCount": 6,
+    "currentMarketPrice": 0,
+    "holders": [
+      {
+        "holderId": "5fo4GxErk7jF5NZiQgPvY6WS3hvtsXjiRtUznESrGoWC",
+        "ownedPercentage": 5.1095,
+        "realizedPnL": 0,
+        "totalCostOfTokensHeld": 1.5,
+        "totalTokenAmountHeld": 51095238.095238,
+        "isSniper": true,
+        "unrealizedPnL": -1.5
+      },
+      {
+        "holderId": "9AGwMG7ox7Mts3c662S7n68v7rVLVkW32gD111Xtf4At",
+        "ownedPercentage": 3.1324,
+        "realizedPnL": 0,
+        "totalCostOfTokensHeld": 1,
+        "totalTokenAmountHeld": 31323539.402169,
+        "isSniper": true,
+        "unrealizedPnL": -1
+      },
+      {
+        "holderId": "6g5vZUMcpvyx16YRYBrGjCDcGtLF46o4HSV8pvpr855u",
+        "ownedPercentage": 0.1477,
+        "realizedPnL": 0,
+        "totalCostOfTokensHeld": 0.04696,
+        "totalTokenAmountHeld": 1477078.962643,
+        "isSniper": true,
+        "unrealizedPnL": -0.04696
+      },
+      {
+        "holderId": "8TXXRd6QVy7CNBgzj4XGnBkonw9SfDqHW3VtnUe4ZY1k",
+        "ownedPercentage": 0.05,
+        "realizedPnL": 0,
+        "totalCostOfTokensHeld": 0.015465,
+        "totalTokenAmountHeld": 500000,
+        "isSniper": true,
+        "unrealizedPnL": -0.015465
+      },
+      {
+        "holderId": "7ZHh3A5yUZuTq8FVrtdZXui3zH5xwpdqZMKSZk64TC8G",
+        "ownedPercentage": 0,
+        "realizedPnL": 0.002565,
+        "totalCostOfTokensHeld": 0,
+        "totalTokenAmountHeld": 0,
+        "isSniper": true,
+        "unrealizedPnL": 0
+      },
+      {
+        "holderId": "12gDkdowKKhn2runB69fxD4f2PY5okc698u8b3ezpump",
+        "ownedPercentage": 0,
+        "realizedPnL": -0.001201,
+        "totalCostOfTokensHeld": 0,
+        "totalTokenAmountHeld": 0,
+        "isSniper": true,
+        "unrealizedPnL": 0
+      }
+    ]
+  },
+  {
+    "coinMint": "AGZ4EoDbBQ8NevtnR8FY5VL4bu9zyCXEjww9wsSqpump",
+    "dev": "EoLLNEd8GTzwBc1EjnSALrNrqFRL1EdfpnhrZPn3yDbm",
+    "name": "Meet Zylo",
+    "ticker": "MeetZylo",
+    "imageUrl": "https://ipfs.io/ipfs/QmQ1Y45CGAP8urQtRjT7v5GodZyUg3TWdnkDZhw9VCh4wd",
+    "creationTime": 1733719675445,
+    "numHolders": 3,
+    "marketCap": 7674.79,
+    "volume": 2.691,
+    "bondingCurveProgress": 11.14,
+    "sniperCount": 3,
+    "currentMarketPrice": 0,
+    "holders": [
+      {
+        "holderId": "EoLLNEd8GTzwBc1EjnSALrNrqFRL1EdfpnhrZPn3yDbm",
+        "ownedPercentage": 6.7062,
+        "realizedPnL": 0,
+        "totalCostOfTokensHeld": 2,
+        "totalTokenAmountHeld": 67062499.999999,
+        "isSniper": true,
+        "unrealizedPnL": -2
+      },
+      {
+        "holderId": "B5e7SfpGKLMAEWWqTeNmayd9wwBB9b9VSJVAaN6SFjba",
+        "ownedPercentage": 2.0099,
+        "realizedPnL": 0,
+        "totalCostOfTokensHeld": 0.6524,
+        "totalTokenAmountHeld": 20098786.766057,
+        "isSniper": true,
+        "unrealizedPnL": -0.6524
+      },
+      {
+        "holderId": "6g5vZUMcpvyx16YRYBrGjCDcGtLF46o4HSV8pvpr855u",
+        "ownedPercentage": 0.1163,
+        "realizedPnL": 0,
+        "totalCostOfTokensHeld": 0.038575,
+        "totalTokenAmountHeld": 1163270.227287,
+        "isSniper": true,
+        "unrealizedPnL": -0.038575
+      }
+    ]
+  },
+  {
+    "coinMint": "8tPAXKrYKBt1dcNKBNUnCA89RpRrDKgUhCFZKfwqpump",
+    "dev": "GQNrr7WbxTkW5eBwgK5CRauwHYTzMwkWmdeLZkX1csQH",
+    "name": "EmyRinAI",
+    "ticker": "EMYAI",
+    "imageUrl": "https://ipfs.io/ipfs/QmQT38MGBvo1fwAwzDAn6jt5LYiAtU4Mk1vXTtVR5Rqv1c",
+    "creationTime": 1733719673266,
+    "numHolders": 2,
+    "marketCap": 6925.05,
+    "volume": 1.8113,
+    "bondingCurveProgress": 4.59,
+    "sniperCount": 4,
+    "currentMarketPrice": 0,
+    "holders": [
+      {
+        "holderId": "GQNrr7WbxTkW5eBwgK5CRauwHYTzMwkWmdeLZkX1csQH",
+        "ownedPercentage": 3.4613,
+        "realizedPnL": 0,
+        "totalCostOfTokensHeld": 1,
+        "totalTokenAmountHeld": 34612903.225806,
+        "isSniper": true,
+        "unrealizedPnL": -1
+      },
+      {
+        "holderId": "6g5vZUMcpvyx16YRYBrGjCDcGtLF46o4HSV8pvpr855u",
+        "ownedPercentage": 0.1779,
+        "realizedPnL": 0,
+        "totalCostOfTokensHeld": 0.054323,
+        "totalTokenAmountHeld": 1778793.890121,
+        "isSniper": true,
+        "unrealizedPnL": -0.054323
+      },
+      {
+        "holderId": "2YqTcTMDFD2vvVHcc8Wd61zwLiWaDZvAKrzXFW1adZ3K",
+        "ownedPercentage": 0,
+        "realizedPnL": 0.002194,
+        "totalCostOfTokensHeld": 0,
+        "totalTokenAmountHeld": 0,
+        "isSniper": true,
+        "unrealizedPnL": 0
+      },
+      {
+        "holderId": "12gDkdowKKhn2runB69fxD4f2PY5okc698u8b3ezpump",
+        "ownedPercentage": 0,
+        "realizedPnL": -0.001066,
+        "totalCostOfTokensHeld": 0,
+        "totalTokenAmountHeld": 0,
+        "isSniper": true,
+        "unrealizedPnL": 0
+      }
+    ]
+  }
+]
